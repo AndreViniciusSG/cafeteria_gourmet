@@ -1,0 +1,116 @@
+@charset "UTF-8";
+*{
+	margin: 0;
+	padding: 0;
+	box-sizing: border-box;
+}
+
+/* Formatação do Body */	
+body {
+	background-color: white;
+	padding: 0;
+	margin: 0;
+	width: 100vw;
+	height: 100vh;
+}
+
+/* Formatação do container principal */
+.container {
+	display: flex;
+	justify-content: center;
+	text-align: center;
+	flex-wrap: wrap;
+	width: 100vw;
+	height: auto;
+}
+
+/* Formatação do container box2 */
+.box1{
+	width: 100vw;
+    margin-bottom: 10px;
+}
+
+/* Formatação da imagem da logo do box1 */
+#logo {
+    height: 120px;
+	width: 120px;
+    padding: 10px;
+    display: block;
+    float: left;
+}
+
+/* Formatação da imagem da login do box1 */
+#login {
+    height: 40px;
+	width: 40px;
+    margin: 30px;
+    padding: 5px;
+    display: block;
+    float: right;
+}
+
+/* Formatação da imagem da cadastro do box1 */
+#cadastro {
+    height: 40px;
+	width: 40px;
+    margin: 30px;
+    padding: 5px;
+    display: block;
+    float: right;
+}
+
+/* Formatação da imagem da carrinho do box1 */
+#carrinho {
+    height: 40px;
+	width: 40px;
+    margin: 30px;
+    padding: 5px;
+    display: block;
+    float: right;
+}
+
+/* Formatação do container box2 */
+.box2{
+	width: 100vw;
+}
+
+/* Formatação do Menu */
+nav#menu {
+	display: block;
+}
+
+/* Formatação do H1 do Menu */	
+nav#menu h1{
+	display: none;
+}
+
+/* Formatação da Posição na página da Lista do Menu */
+nav#menu ul{
+	list-style: none;
+	text-align: center;
+	padding: 10px;
+	font-size: 15pt;	
+	font-weight: bold;
+	background-color: rgba(76, 52, 52, 1);
+}
+
+/* Formatação da cor e forma da Lista do Menu */
+nav#menu li{
+	font-family: Bebas;
+	font-weight: normal;
+	font-size: 12pt;
+    color: white;
+	display: inline-block;/* Lista em forma de fila*/
+	background-color: transparent;
+	margin: 8px;
+	text-transform: uppercase;
+}
+
+/* Formatação do container box3 */
+.box3{
+	width: 100vw;
+    height: 50vw;
+    background-image: url(../imagens/imageminicial.png);
+    background-repeat: no-repeat;
+    background-size: contain;
+}
