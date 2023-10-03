@@ -5,6 +5,14 @@
 	box-sizing: border-box;
 }
 
+/* Formatação para fonte */
+@font-face {
+    font-family: 'CaviarDreams';
+    src: url(../fonts/CaviarDreams.ttf) format("truetype-variations");
+    font-weight: normal;
+    font-display: swap;
+}
+
 /* Formatação do Body */	
 body {
 	background-color: white;
@@ -96,7 +104,7 @@ nav#menu ul{
 
 /* Formatação da cor e forma da Lista do Menu */
 nav#menu li{
-	font-family: Bebas;
+	font-family: CaviarDreams;
 	font-weight: normal;
 	font-size: 12pt;
     color: white;
@@ -109,8 +117,34 @@ nav#menu li{
 /* Formatação do container box3 */
 .box3{
 	width: 100vw;
-    height: 50vw;
+    height: 45vw;
     background-image: url(../imagens/imageminicial.png);
     background-repeat: no-repeat;
     background-size: contain;
+}
+
+/* Formatação do rodape*/
+#rodape{
+	text-align: center;
+	background-color: rgba(153, 110, 110, 1);
+	width: 100%;
+	padding: 50px;
+	color: black;
+	font-family: CaviarDreams;
+	font-weight: bold;
+	font-size: 10pt;
+}
+
+/* Formatação do link do rodape*/
+#rodape a{
+	color: white;
+	text-decoration: none;
+	font-weight: normal;
+}
+
+/* Formatação do link do rodape*/
+#rodape a:hover{
+	text-decoration: underline;
+	font-size: 11pt;
+	transition: 0.4s;
 }
