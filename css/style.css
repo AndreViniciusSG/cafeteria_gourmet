@@ -13,6 +13,30 @@
     font-display: swap;
 }
 
+/* Formatação para fonte */
+@font-face {
+    font-family: 'kgred';
+    src: url(../fonts/kgred.ttf) format("truetype-variations");
+    font-weight: normal;
+    font-display: swap;
+}
+
+/* Formatação para fonte */
+@font-face {
+    font-family: 'Biko';
+    src: url(../fonts/Biko.otf) format("truetype-variations");
+    font-weight: normal;
+    font-display: swap;
+}
+
+/* Formatação para fonte */
+@font-face {
+    font-family: 'Bebas';
+    src: url(../fonts/Bebas.otf) format("truetype-variations");
+    font-weight: normal;
+    font-display: swap;
+}
+
 /* Formatação do Body */	
 body {
 	background-color: white;
@@ -110,7 +134,8 @@ nav#menu li{
     color: white;
 	display: inline-block;/* Lista em forma de fila*/
 	background-color: transparent;
-	margin: 8px;
+	margin: 10px;
+	padding: 5px;
 	text-transform: uppercase;
 }
 
@@ -121,6 +146,34 @@ nav#menu li{
     background-image: url(../imagens/imageminicial.png);
     background-repeat: no-repeat;
     background-size: contain;
+}
+
+/* Formatação do container box4 */
+.box4{
+	width: 100vw;
+	margin: 100px;
+}
+
+/* Formatação do video do box4 */
+.box4 #video{
+	margin: 100px;
+}
+
+/* Formatação do h1 box4 */
+.box4 h1{
+	font-family: Biko;
+	font-size: 50px;
+	padding: 10px;
+	color: rgba(76, 52, 52, 1);
+}
+
+/* Formatação do p box4 */
+.box4 p{
+	font-family: Biko;
+	font-size: 20px;
+	padding: 50px;
+	text-align: justify;
+	color: rgba(76, 52, 52, 1);
 }
 
 /* Formatação do rodape*/
