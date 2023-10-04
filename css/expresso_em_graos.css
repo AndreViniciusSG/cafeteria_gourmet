@@ -143,43 +143,83 @@ nav#menu li{
 nav#menu li:hover{
     color: rgb(248, 204, 59);
 }
+
 /* Formatação do container box3 */
 .box3{
 	width: 100vw;
-    height: 45vw;
-    background-image: url(../imagens/imageminicial.png);
-    background-repeat: no-repeat;
-    background-size: contain;
+    height: auto;
 }
 
-/* Formatação do container box4 */
-.box4{
-	width: 100vw;
-	margin: 100px;
-}
-
-/* Formatação do video do box4 */
-.box4 #video{
-	margin: 100px;
-}
-
-/* Formatação do h1 box4 */
-.box4 h1{
-	font-family: Biko;
+/* Formatação do h1 box3 */
+.box3 h1{
+	font-family: CaviarDreams;
 	font-size: 50px;
+    margin: 20px;
+    text-transform: uppercase;
+    font-weight: bold;
 	padding: 10px;
-	color: rgba(76, 52, 52, 1);
-	margin-bottom: 10px;
+	color: rgb(105, 102, 103);
 }
 
-/* Formatação do p box4 */
-.box4 p{
-	font-family: Biko;
+/* Formatação do h2 box3 */
+.box3 h2{
+	font-family: CaviarDreams;
 	font-size: 20px;
-	padding: 0px 70px 0px 70px;
-	text-align: justify;
-	color: rgba(76, 52, 52, 1);
-	text-indent: 30px;
+    text-align: center;
+    font-weight: bold;
+	color: rgb(105, 102, 103);
+    margin: 10px;
+}
+
+/* Formatação do h1 da classe produtos */
+.produtos h1{
+	font-family: CaviarDreams;
+	font-size: 20px;
+    text-align: center;
+    text-transform: uppercase;
+	padding: 10px;
+    margin: auto;
+    width: 20vw;
+	color: rgb(105, 102, 103);
+}
+
+/* Formatação do h1 da classe produtos */
+.produtos h2{
+	font-family: CaviarDreams;
+	font-size: 20px;
+    text-align: center;
+    padding: 10px;
+    margin: auto;
+    width: 20vw;
+    color: rgb(24, 38, 94);
+}
+
+/* Formatação da classe produtos */
+.produtos p{
+    width: 150px;
+    height: 60px;
+	font-family: Bikos;
+	font-size: 20px;
+    padding: 20px;
+    margin: auto;
+    text-align: center;
+    font-weight: bold;
+    border-radius: 15px;
+	color: white;
+    background-color: rgb(248, 204, 59);
+}
+
+/* Formatação da classe produtos */
+div.produtos{
+    margin: 50px;
+}
+
+/* Formatação da imagem do produto 1 */
+img#produto1{
+    width: auto;
+    height: 300px;
+    padding: 5px;
+    margin: auto;
 }
 
 /* Formatação do rodape*/
