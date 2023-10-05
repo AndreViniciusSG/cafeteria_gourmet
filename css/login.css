@@ -1,0 +1,279 @@
+@charset "UTF-8";
+*{
+	margin: 0;
+	padding: 0;
+	box-sizing: border-box;
+}
+
+/* Formatação para fonte */
+@font-face {
+    font-family: 'CaviarDreams';
+    src: url(../fonts/CaviarDreams.ttf) format("truetype-variations");
+    font-weight: normal;
+    font-display: swap;
+}
+
+/* Formatação para fonte */
+@font-face {
+    font-family: 'kgred';
+    src: url(../fonts/kgred.ttf) format("truetype-variations");
+    font-weight: normal;
+    font-display: swap;
+}
+
+/* Formatação para fonte */
+@font-face {
+    font-family: 'Biko';
+    src: url(../fonts/Biko.otf) format("truetype-variations");
+    font-weight: normal;
+    font-display: swap;
+}
+
+/* Formatação para fonte */
+@font-face {
+    font-family: 'Bebas';
+    src: url(../fonts/Bebas.otf) format("truetype-variations");
+    font-weight: normal;
+    font-display: swap;
+}
+
+/* Formatação do Body */	
+body {
+	background-color: white;
+	padding: 0;
+	margin: 0;
+	width: 100vw;
+	height: 100vh;
+}
+
+/* Formatação do container principal */
+.container {
+	display: flex;
+	justify-content: center;
+	text-align: center;
+	flex-wrap: wrap;
+	width: 100vw;
+	height: auto;
+}
+
+/* Formatação do container box2 */
+.box1{
+	width: 100vw;
+    margin-bottom: 10px;
+}
+
+/* Formatação da imagem da logo do box1 */
+#logo {
+    height: 120px;
+	width: 120px;
+    padding: 10px;
+    display: block;
+    float: left;
+}
+
+/* Formatação da imagem da login do box1 */
+#login {
+    height: 40px;
+	width: 40px;
+    margin: 30px;
+    padding: 5px;
+    display: block;
+    float: right;
+}
+
+/* Formatação da imagem da cadastro do box1 */
+#cadastro {
+    height: 40px;
+	width: 40px;
+    margin: 30px;
+    padding: 5px;
+    display: block;
+    float: right;
+}
+
+/* Formatação da imagem da carrinho do box1 */
+#carrinho {
+    height: 40px;
+	width: 40px;
+    margin: 30px;
+    padding: 5px;
+    display: block;
+    float: right;
+}
+
+/* Formatação do container box2 */
+.box2{
+	width: 100vw;
+}
+
+/* Formatação do Menu */
+nav#menu {
+	display: block;
+}
+
+/* Formatação do H1 do Menu */	
+nav#menu h1{
+	display: none;
+}
+
+/* Formatação da Posição na página da Lista do Menu */
+nav#menu ul{
+	list-style: none;
+	text-align: center;
+	padding: 10px;
+	font-size: 15pt;	
+	font-weight: bold;
+	background-color: rgba(76, 52, 52, 1);
+}
+
+/* Formatação da cor e forma da Lista do Menu */
+nav#menu li{
+	font-family: CaviarDreams;
+	font-weight: normal;
+	font-size: 12pt;
+    color: white;
+	display: inline-block;/* Lista em forma de fila*/
+	background-color: transparent;
+	margin: 10px;
+	padding: 5px;
+	text-transform: uppercase;
+}
+
+/* Formatação ao passar o mouse na lista*/
+nav#menu li:hover{
+    color: rgb(248, 204, 59);
+}
+
+/* Formatação do container box3 */
+.box3{
+	width: 100vw;
+    height: auto;
+    background-color: red;
+    padding: 10px;
+}
+
+/* Formatação da div1 do box3 */
+#div1{
+    width: 49vw;
+    height: 80vh;
+    padding: 5px;
+    float: right;
+    background-image: url(../imagens/coffe.png);
+    background-repeat: no-repeat;
+    background-size: 100%;
+    background-position: center;
+}
+
+/* Formatação da imagem div1 do box3 */
+#coffe{
+    width: 600px;
+    height: 500px;
+
+}
+
+/* Formatação da div2 do box3 */
+#div2{
+    width: 49vw;
+    height: 80vh;
+    background-color: green;
+    padding: 10px;
+    float: left;
+}
+
+/* Formatação do h1 box3 */
+.box3 h1{
+	font-family: CaviarDreams;
+	font-size: 50px;
+    margin: 20px;
+    text-transform: uppercase;
+    font-weight: bold;
+	padding: 10px;
+	color: rgb(105, 102, 103);
+}
+
+/* Formatação do h2 box3 */
+.box3 h2{
+	font-family: CaviarDreams;
+	font-size: 20px;
+    text-align: center;
+    font-weight: bold;
+	color: rgb(105, 102, 103);
+    margin: 10px;
+}
+
+/* Formatação do h1 da classe produtos */
+.produtos h1{
+	font-family: CaviarDreams;
+	font-size: 20px;
+    text-align: center;
+    text-transform: uppercase;
+	padding: 10px;
+    margin: auto;
+    width: 20vw;
+	color: rgb(105, 102, 103);
+}
+
+/* Formatação do h1 da classe produtos */
+.produtos h2{
+	font-family: CaviarDreams;
+	font-size: 20px;
+    text-align: center;
+    padding: 10px;
+    margin: auto;
+    width: 20vw;
+    color: rgb(24, 38, 94);
+}
+
+/* Formatação da classe produtos */
+.produtos p{
+    width: 150px;
+    height: 60px;
+	font-family: Bikos;
+	font-size: 20px;
+    padding: 20px;
+    margin: auto;
+    text-align: center;
+    font-weight: bold;
+    border-radius: 15px;
+	color: white;
+    background-color: rgb(248, 204, 59);
+}
+
+/* Formatação da classe produtos */
+div.produtos{
+    margin: 50px;
+}
+
+/* Formatação da imagem do produto 1 */
+img#produto1{
+    width: auto;
+    height: 300px;
+    padding: 5px;
+    margin: auto;
+}
+
+/* Formatação do rodape*/
+#rodape{
+	text-align: center;
+	background-color: rgba(153, 110, 110, 1);
+	width: 100%;
+	padding: 50px;
+	color: black;
+	font-family: CaviarDreams;
+	font-weight: bold;
+	font-size: 10pt;
+}
+
+/* Formatação do link do rodape*/
+#rodape a{
+	color: white;
+	text-decoration: none;
+	font-weight: normal;
+}
+
+/* Formatação do link do rodape*/
+#rodape a:hover{
+	text-decoration: underline;
+	font-size: 11pt;
+	transition: 0.4s;
+}
