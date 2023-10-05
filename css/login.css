@@ -81,6 +81,12 @@ body {
     float: right;
 }
 
+/* Formatação ao passar o mouse aa imagem da login do box1 */
+#login:hover {
+    height: 50px;
+	width: 50px;
+}
+
 /* Formatação da imagem da cadastro do box1 */
 #cadastro {
     height: 40px;
@@ -187,7 +193,7 @@ nav#menu li:hover{
 	width: 500px;
 	height: 450px;
 	padding: 10px 2px;
-    border: 5px solid rgb(248, 204, 59);
+    border: 2px solid rgb(248, 204, 59);
 }
 
 /* Formatação do formulário*/	

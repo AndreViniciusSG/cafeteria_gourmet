@@ -81,6 +81,12 @@ body {
     float: right;
 }
 
+/* Formatação ao passar o mouse aa imagem da login do box1 */
+#login:hover {
+    height: 50px;
+	width: 50px;
+}
+
 /* Formatação da imagem da cadastro do box1 */
 #cadastro {
     height: 40px;
