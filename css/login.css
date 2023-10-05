@@ -148,13 +148,11 @@ nav#menu li:hover{
 .box3{
 	width: 100vw;
     height: auto;
-    background-color: red;
-    padding: 10px;
 }
 
 /* Formatação da div1 do box3 */
 #div1{
-    width: 49vw;
+    width: 50vw;
     height: 80vh;
     padding: 5px;
     float: right;
@@ -173,83 +171,86 @@ nav#menu li:hover{
 
 /* Formatação da div2 do box3 */
 #div2{
-    width: 49vw;
+    width: 50vw;
     height: 80vh;
-    background-color: green;
+    background-color: white;
     padding: 10px;
     float: left;
 }
 
-/* Formatação do h1 box3 */
-.box3 h1{
-	font-family: CaviarDreams;
-	font-size: 50px;
-    margin: 20px;
-    text-transform: uppercase;
-    font-weight: bold;
-	padding: 10px;
-	color: rgb(105, 102, 103);
+/* Formatação da div form*/	
+.form{
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	margin: auto;
+	width: 500px;
+	height: 450px;
+	padding: 10px 2px;
+    border: 5px solid rgb(248, 204, 59);
 }
 
-/* Formatação do h2 box3 */
-.box3 h2{
-	font-family: CaviarDreams;
-	font-size: 20px;
-    text-align: center;
-    font-weight: bold;
-	color: rgb(105, 102, 103);
-    margin: 10px;
+/* Formatação do formulário*/	
+.form form{
+	display: flex;
+	flex-direction: column;
+	width: 70%;
 }
 
-/* Formatação do h1 da classe produtos */
-.produtos h1{
-	font-family: CaviarDreams;
-	font-size: 20px;
-    text-align: center;
-    text-transform: uppercase;
-	padding: 10px;
-    margin: auto;
-    width: 20vw;
-	color: rgb(105, 102, 103);
+/* Formatação do label*/
+form label{
+	font-size: 15pt;
+	font-family: Bebas;
+	font-weight: normal;
+	padding: 15px;
+	text-align: left;
+    color:rgb(248, 204, 59);
 }
 
-/* Formatação do h1 da classe produtos */
-.produtos h2{
-	font-family: CaviarDreams;
-	font-size: 20px;
-    text-align: center;
-    padding: 10px;
-    margin: auto;
-    width: 20vw;
-    color: rgb(24, 38, 94);
-}
-
-/* Formatação da classe produtos */
-.produtos p{
-    width: 150px;
-    height: 60px;
-	font-family: Bikos;
-	font-size: 20px;
-    padding: 20px;
-    margin: auto;
-    text-align: center;
-    font-weight: bold;
-    border-radius: 15px;
+/* Formatação do input*/
+form input{
 	color: white;
+	font-size: 15pt;
+	font-family: Biko;
+	font-weight: normal;
+	padding: 5px;
     background-color: rgb(248, 204, 59);
+    border-radius:  12px;
 }
 
-/* Formatação da classe produtos */
-div.produtos{
-    margin: 50px;
+/* Formatação do button*/
+form button{
+	color:  rgba(76, 52, 52, 1);
+	font-size: 10pt;
+	font-family: Bebas;
+	font-weight: normal;
+	background-color: transparent;
+	padding: 10px;
+	width: 200px;
+	text-align: center;
+	cursor: pointer;
+	border: 2px solid  rgba(76, 52, 52, 1);
+	transition: 1s;
+	margin: auto;
+    margin-top: 20px;
+	letter-spacing: 2px;
 }
 
-/* Formatação da imagem do produto 1 */
-img#produto1{
-    width: auto;
-    height: 300px;
-    padding: 5px;
-    margin: auto;
+/* Formatação do imagem do form*/
+form #login{
+width: 60px;
+height: 60px;
+margin: auto;
+margin-top: 10px;
+}
+
+/* Formatação do h1 do form*/
+#div2 h1{
+    font-size: 30pt;
+	font-family: Bebas;
+	font-weight: normal;
+    color:  rgb(248, 204, 59);
+    margin:auto;
 }
 
 /* Formatação do rodape*/
