@@ -1,0 +1,210 @@
+@charset "UTF-8";
+*{
+	margin: 0;
+	padding: 0;
+	box-sizing: border-box;
+}
+
+/* Formatação para fonte */
+@font-face {
+    font-family: 'CaviarDreams';
+    src: url(../fonts/CaviarDreams.ttf) format("truetype-variations");
+    font-weight: normal;
+    font-display: swap;
+}
+
+/* Formatação para fonte */
+@font-face {
+    font-family: 'kgred';
+    src: url(../fonts/kgred.ttf) format("truetype-variations");
+    font-weight: normal;
+    font-display: swap;
+}
+
+/* Formatação para fonte */
+@font-face {
+    font-family: 'Biko';
+    src: url(../fonts/Biko.otf) format("truetype-variations");
+    font-weight: normal;
+    font-display: swap;
+}
+
+/* Formatação para fonte */
+@font-face {
+    font-family: 'Bebas';
+    src: url(../fonts/Bebas.otf) format("truetype-variations");
+    font-weight: normal;
+    font-display: swap;
+}
+
+/* Formatação do Body */	
+body {
+	background-color: white;
+	padding: 0;
+	margin: 0;
+	width: 100vw;
+	height: 100vh;
+}
+
+/* Formatação do container principal */
+.container {
+	display: flex;
+	justify-content: center;
+	text-align: center;
+	flex-wrap: wrap;
+	width: 100vw;
+	height: auto;
+}
+
+/* Formatação do container box2 */
+.box1{
+	width: 100vw;
+    margin-bottom: 10px;
+}
+
+/* Formatação da imagem da logo do box1 */
+#logo {
+    height: 120px;
+	width: 120px;
+    padding: 10px;
+    display: block;
+    float: left;
+}
+
+/* Formatação da imagem da login do box1 */
+#login {
+    height: 40px;
+	width: 40px;
+    margin: 30px;
+    padding: 5px;
+    display: block;
+    float: right;
+}
+
+/* Formatação ao passar o mouse aa imagem da login do box1 */
+#login:hover {
+    height: 50px;
+	width: 50px;
+}
+
+/* Formatação da imagem da cadastro do box1 */
+#cadastro {
+    height: 40px;
+	width: 40px;
+    margin: 30px;
+    padding: 5px;
+    display: block;
+    float: right;
+}
+
+/* Formatação da imagem da carrinho do box1 */
+#carrinho {
+    height: 40px;
+	width: 40px;
+    margin: 30px;
+    padding: 5px;
+    display: block;
+    float: right;
+}
+
+/* Formatação do container box2 */
+.box2{
+	width: 100vw;
+}
+
+/* Formatação do Menu */
+nav#menu {
+	display: block;
+}
+
+/* Formatação do H1 do Menu */	
+nav#menu h1{
+	display: none;
+}
+
+/* Formatação da Posição na página da Lista do Menu */
+nav#menu ul{
+	list-style: none;
+	text-align: center;
+	padding: 10px;
+	font-size: 15pt;	
+	font-weight: bold;
+	background-color: rgba(76, 52, 52, 1);
+}
+
+/* Formatação da cor e forma da Lista do Menu */
+nav#menu li{
+	font-family: CaviarDreams;
+	font-weight: normal;
+	font-size: 12pt;
+    color: white;
+	display: inline-block;/* Lista em forma de fila*/
+	background-color: transparent;
+	margin: 10px;
+	padding: 5px;
+	text-transform: uppercase;
+}
+
+/* Formatação ao passar o mouse na lista*/
+nav#menu li:hover{
+    color: rgb(248, 204, 59);
+}
+
+/* Formatação da div caixa1*/
+#caixa1{
+    width: 320px;
+    height: 500px;
+    background-color: blue;
+    display: inline-block;
+}
+
+/* Formatação da div caixa2*/
+#caixa2{
+    width: 320px;
+    height: 500px;
+    background-color: red;
+    display: inline-block;
+}
+
+/* Formatação da div caixa2*/
+#caixa3{
+    width: 320px;
+    height: 500px;
+    background-color: green;
+    display: inline-block;
+}
+
+/* Formatação da div caixa2*/
+#caixa4{
+    width: 320px;
+    height: 500px;
+    background-color: yellow;
+    display: inline-block;
+}
+
+
+/* Formatação do rodape*/
+#rodape{
+	text-align: center;
+	background-color: rgba(153, 110, 110, 1);
+	width: 100%;
+	padding: 50px;
+	color: black;
+	font-family: CaviarDreams;
+	font-weight: bold;
+	font-size: 10pt;
+}
+
+/* Formatação do link do rodape*/
+#rodape a{
+	color: white;
+	text-decoration: none;
+	font-weight: normal;
+}
+
+/* Formatação do link do rodape*/
+#rodape a:hover{
+	text-decoration: underline;
+	font-size: 11pt;
+	transition: 0.4s;
+}
