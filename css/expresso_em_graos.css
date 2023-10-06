@@ -150,35 +150,36 @@ nav#menu li:hover{
     color: rgb(248, 204, 59);
 }
 
-/* Formatação do container box3 */
-.box3{
-	width: 100vw;
-    height: auto;
+/* Formatação da div caixa_produtos*/
+#caixa_produtos{
+background-color: white;
+margin-top: 10px ;
 }
 
-/* Formatação do h1 box3 */
-.box3 h1{
-	font-family: CaviarDreams;
+/* Formatação do h1 da dic caixa_produtos*/
+#caixa_produtos h1{
+    font-family: CaviarDreams;
 	font-size: 50px;
-    margin: 20px;
+    margin: 2px;
     text-transform: uppercase;
     font-weight: bold;
-	padding: 10px;
+	padding: 5px;
 	color: rgb(105, 102, 103);
 }
 
-/* Formatação do h2 box3 */
-.box3 h2{
+/* Formatação do h2 da dic caixa_produtos*/
+#caixa_produtos h2{
 	font-family: CaviarDreams;
 	font-size: 20px;
+    margin: 2px;
     text-align: center;
     font-weight: bold;
+    padding: 5px;
 	color: rgb(105, 102, 103);
-    margin: 10px;
 }
 
-/* Formatação do h1 da classe produtos */
-.produtos h1{
+/* Formatação do h3 da dic caixa_produtos*/
+#caixa_produtos h3{
 	font-family: CaviarDreams;
 	font-size: 20px;
     text-align: center;
@@ -189,8 +190,8 @@ nav#menu li:hover{
 	color: rgb(105, 102, 103);
 }
 
-/* Formatação do h1 da classe produtos */
-.produtos h2{
+/* Formatação do h4 da dic caixa_produtos*/
+#caixa_produtos h4{
 	font-family: CaviarDreams;
 	font-size: 20px;
     text-align: center;
@@ -200,8 +201,8 @@ nav#menu li:hover{
     color: rgb(24, 38, 94);
 }
 
-/* Formatação da classe produtos */
-.produtos p{
+/* Formatação do p da div caixa_produtos */
+#caixa_produtos p{
     width: 150px;
     height: 60px;
 	font-family: Bikos;
@@ -215,18 +216,70 @@ nav#menu li:hover{
     background-color: rgb(248, 204, 59);
 }
 
-/* Formatação da classe produtos */
-div.produtos{
-    margin: 50px;
+/* Formatação da div caixa1*/
+#caixa1{
+    width: 320px;
+    height: 500px;
+    display: inline-block;
+    margin-top: 50px;
 }
 
 /* Formatação da imagem do produto 1 */
 img#produto1{
     width: auto;
-    height: 300px;
+    height: 200px;
     padding: 5px;
     margin: auto;
 }
+
+/* Formatação da div caixa2*/
+#caixa2{
+    width: 320px;
+    height: 500px;
+    display: inline-block;
+    margin-top: 50px;
+}
+
+/* Formatação da imagem do produto 2 */
+img#produto2{
+    width: auto;
+    height: 200px;
+    padding: 5px;
+    margin: auto;
+}
+
+/* Formatação da div caixa2*/
+#caixa3{
+    width: 320px;
+    height: 500px;
+    display: inline-block;
+    margin-top: 50px;
+}
+
+/* Formatação da imagem do produto 4 */
+img#produto3{
+    width: auto;
+    height: 200px;
+    padding: 5px;
+    margin: auto;
+}
+
+/* Formatação da div caixa2*/
+#caixa4{
+    width: 320px;
+    height: 500px;
+    display: inline-block;
+    margin-top: 50px;
+}
+
+/* Formatação da imagem do produto 4 */
+img#produto4{
+    width: auto;
+    height: 200px;
+    padding: 5px;
+    margin: auto;
+}
+
 
 /* Formatação do rodape*/
 #rodape{

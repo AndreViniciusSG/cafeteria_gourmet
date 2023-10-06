@@ -164,6 +164,10 @@ nav#menu li:hover{
 	margin: 100px;
 }
 
+#faixa{
+	width: 100vw;
+	height: 200px;
+}
 /* Formatação do video do box4 */
 .box4 #video{
 	margin: 100px;
