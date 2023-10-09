@@ -150,125 +150,118 @@ nav#menu li:hover{
     color: rgb(248, 204, 59);
 }
 
-/* Formatação do container box3 */
-.box3{
-	width: 100vw;
-    height: auto;
+/* Formatação da div caixa_produtos*/
+#caixa_produtos{
+background-color: white;
+margin-top: 10px ;
 }
 
-/* Formatação da div1 do box3 */
-#div1{
-    width: 50vw;
-    height: 80vh;
-    padding: 5px;
-    float: right;
-    background-image: url(../imagens/coffe.png);
-    background-repeat: no-repeat;
-    background-size: 100%;
-    background-position: center;
-}
-
-/* Formatação da imagem div1 do box3 */
-#coffe{
-    width: 600px;
-    height: 500px;
-
-}
-
-/* Formatação da div2 do box3 */
-#div2{
-    width: 50vw;
-    height: 80vh;
-    background-color: white;
-    padding: 10px;
-    float: left;
-}
-
-/* Formatação da div form*/	
-.form{
-	display: flex;
-	justify-content: center;
-	align-items: center;
-	margin: auto;
-	width: 500px;
-	height: 450px;
-	padding: 10px 2px;
-    border: 2px solid rgb(248, 204, 59);
-}
-
-/* Formatação do formulário*/	
-.form form{
-	display: flex;
-	flex-direction: column;
-	width: 70%;
-}
-
-/* Formatação do label*/
-form label{
-	font-size: 15pt;
-	font-family: Bebas;
-	font-weight: normal;
-	padding: 15px;
-	text-align: left;
-    color:rgb(248, 204, 59);
-}
-
-/* Formatação do input*/
-form input{
-	color: white;
-	font-size: 12pt;
-	font-family: Biko;
-	font-weight: normal;
+/* Formatação do h1 da dic caixa_produtos*/
+#caixa_produtos h1{
+    font-family: CaviarDreams;
+	font-size: 50px;
+    margin: 2px;
+    text-transform: uppercase;
+    font-weight: bold;
 	padding: 5px;
-    background-color: rgb(248, 204, 59);
-	border: 2px solid rgb(248, 204, 59);
-    border-radius:  12px;
+	color: rgb(105, 102, 103);
 }
 
-/* Formatação do button*/
-form button{
-	color:  white;
-	font-size: 10pt;
-	font-family: Bebas;
-	font-weight: normal;
-	background-color: transparent;
+/* Formatação do h2 da dic caixa_produtos*/
+#caixa_produtos h2{
+	font-family: CaviarDreams;
+	font-size: 20px;
+    margin: 2px;
+    text-align: center;
+    font-weight: bold;
+    padding: 5px;
+	color: rgb(105, 102, 103);
+}
+
+/* Formatação do h3 da dic caixa_produtos*/
+#caixa_produtos h3{
+	font-family: CaviarDreams;
+	font-size: 20px;
+    text-align: center;
+    text-transform: uppercase;
 	padding: 10px;
-	width: 200px;
-	text-align: center;
-	cursor: pointer;
-	border: 2px solid  rgba(76, 52, 52, 1);
-	border-radius: 10px;
-	background-color: rgba(76, 52, 52, 1); 
-	transition: 1s;
-	margin: auto;
-    margin-top: 20px;
-	letter-spacing: 2px;
+    margin: auto;
+    width: 20vw;
+	color: rgb(105, 102, 103);
 }
 
-
-button:hover{
-	background-color: rgb(122, 104, 104);
-	border: 2px solid  rgba(122, 104, 104);
-	transition: 0.5s;
-	border-radius: 20px;
-	letter-spacing: 5px;
+/* Formatação do h4 da dic caixa_produtos*/
+#caixa_produtos h4{
+	font-family: CaviarDreams;
+	font-size: 20px;
+    text-align: center;
+    padding: 10px;
+    margin: auto;
+    width: 20vw;
+    color: rgb(24, 38, 94);
 }
 
-/* Formatação do imagem do form*/
-form #login{
-width: 60px;
-height: 60px;
-margin: auto;
-margin-top: 10px;
+/* Formatação do p da div caixa_produtos */
+#caixa_produtos p{
+    width: 150px;
+    height: 60px;
+	font-family: Bikos;
+	font-size: 20px;
+    padding: 20px;
+    margin: auto;
+    text-align: center;
+    font-weight: bold;
+    border-radius: 15px;
+	color: white;
+    background-color: rgb(248, 204, 59);
 }
 
-/* Formatação do h1 do form*/
-#div2 h1{
-    font-size: 30pt;
-	font-family: Bebas;
-	font-weight: normal;
-    color:  rgb(248, 204, 59);
-    margin:auto;
+/* Formatação da div caixa1*/
+#caixa1{
+    width: 320px;
+    height: 500px;
+    display: inline-block;
+    margin-top: 50px;
+}
+
+/* Formatação da imagem do produto 1 */
+img#produto1{
+    width: auto;
+    height: 200px;
+    padding: 5px;
+    margin: auto;
+}
+
+/* Formatação da div caixa2*/
+#caixa2{
+    width: 320px;
+    height: 500px;
+    display: inline-block;
+    margin-top: 50px;
+}
+
+/* Formatação da imagem do produto 2 */
+img#produto2{
+    width: auto;
+    height: 200px;
+    padding: 5px;
+    margin: auto;
+}
+
+/* Formatação da div caixa2*/
+#caixa3{
+    width: 320px;
+    height: 500px;
+    display: inline-block;
+    margin-top: 50px;
+}
+
+/* Formatação da imagem do produto 4 */
+img#produto3{
+    width: auto;
+    height: 200px;
+    padding: 5px;
+    margin: auto;
 }
 
 /* Formatação do rodape*/
