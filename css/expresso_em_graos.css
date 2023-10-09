@@ -216,6 +216,11 @@ margin-top: 10px ;
     background-color: rgb(248, 204, 59);
 }
 
+#caixa_produtos p:hover{
+    background-color: rgba(76, 52, 52, 1);
+    transition: 0.5s;
+}
+
 /* Formatação da div caixa1*/
 #caixa1{
     width: 320px;
