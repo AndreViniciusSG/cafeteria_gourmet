@@ -304,6 +304,16 @@ margin-top: 10px;
     margin:auto;
 }
 
+.eye{
+	width: 20px;
+	color:rgb(248, 204, 59);
+	position: absolute;
+	top: 455px;
+	left: 475px;
+	cursor: pointer;
+	opacity: 0.2;
+}
+
 /* Formatação do rodape*/
 #rodape{
 	text-align: center;
