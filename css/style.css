@@ -230,7 +230,8 @@ nav#menu li:hover{
 .box5{
 	width: 100vw;
     height: auto;
-    background-color: blue;
+    box-shadow: rgba(50, 50, 93, 0.25) 0px 50px 100px -20px, rgba(0, 0, 0, 0.3) 0px 30px 60px -30px, rgba(10, 37, 64, 0.35) 0px -2px 6px 0px inset;
+    margin-top: 100px;
 }
 
 /* Formatação da div1 do box3 */
@@ -239,7 +240,6 @@ nav#menu li:hover{
     height: 500px;
     float: left;
     margin: auto;
-    background-color: blueviolet;
     padding: 10px;
 }
 
@@ -251,14 +251,30 @@ nav#menu li:hover{
     padding: 10px;
 }
 
-/* Formatação da div1 do box3 */
+/* Formatação da div box5_2 */
 #box5_2{
     width: 50vw;
     height: 500px;
     float: right;
     margin: auto;
-    background-color: red;
     padding: 10px;
+}
+
+/* Formatação da div1 do box5_2 */
+#box5_2 h1{
+    font-family: Biko;
+	font-size: 50px;
+    color: rgba(76, 52, 52, 1);
+    margin-top: 120px;
+    padding: 10px;
+}
+
+/* Formatação da p do box5_2 */
+#box5_2 p{
+    font-family: Biko;
+	font-size: 20px;
+	padding: 0px 80px 0px 80px;
+    color: rgba(76, 52, 52, 1);
 }
 
 /* Formatação do rodape*/
