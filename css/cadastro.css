@@ -79,12 +79,19 @@ body {
     padding: 5px;
     display: block;
     float: right;
+    max-width: 100%;
+    -moz-transition: all 0.3s;
+    -webkit-transition: all 0.3s;
+    transition: all 0.3s;
+    opacity: 0.5;
 }
 
 /* Formatação ao passar o mouse aa imagem da login do box1 */
 #login:hover {
-    height: 50px;
-	width: 50px;
+    -moz-transform: scale(1.2);
+    -webkit-transition: scale(1.2);
+    transform: scale(1.2);
+    opacity: 1;
 }
 
 /* Formatação da imagem da cadastro do box1 */
@@ -95,6 +102,19 @@ body {
     padding: 5px;
     display: block;
     float: right;
+    max-width: 100%;
+    -moz-transition: all 0.3s;
+    -webkit-transition: all 0.3s;
+    transition: all 0.3s;
+    opacity: 0.5;
+}
+
+/* Formatação da imagem da cadastro do box1 ao passar o mouse*/
+#cadastro:hover {
+    -moz-transform: scale(1.2);
+    -webkit-transition: scale(1.2);
+    transform: scale(1.2);
+    opacity: 1;
 }
 
 /* Formatação da imagem da carrinho do box1 */
@@ -105,6 +125,19 @@ body {
     padding: 5px;
     display: block;
     float: right;
+    max-width: 100%;
+    -moz-transition: all 0.3s;
+    -webkit-transition: all 0.3s;
+    transition: all 0.3s;
+    opacity: 0.5;
+}
+
+/* Formatação da imagem da carrinho do box1 ao passar o mouse*/
+#carrinho:hover {
+    -moz-transform: scale(1.2);
+    -webkit-transition: scale(1.2);
+    transform: scale(1.2);
+    opacity: 1;
 }
 
 /* Formatação do container box2 */
@@ -208,7 +241,7 @@ form label{
 
 /* Formatação do input*/
 form input{
-	color: white;
+	color: rgba(76, 52, 52, 1);
 	font-size: 12pt;
 	font-family: Biko;
 	font-weight: normal;
