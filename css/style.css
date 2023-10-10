@@ -226,6 +226,41 @@ nav#menu li:hover{
 	text-indent: 30px;
 }
 
+/* Formatação do container box5 */
+.box5{
+	width: 100vw;
+    height: auto;
+    background-color: blue;
+}
+
+/* Formatação da div1 do box3 */
+#box5_1{
+    width: 50vw;
+    height: 500px;
+    float: left;
+    margin: auto;
+    background-color: blueviolet;
+    padding: 10px;
+}
+
+/* Formatação da imagem da div box5 */
+#box5_1_logo{
+    width: 450px;
+    height: 450px;
+    float: center;
+    padding: 10px;
+}
+
+/* Formatação da div1 do box3 */
+#box5_2{
+    width: 50vw;
+    height: 500px;
+    float: right;
+    margin: auto;
+    background-color: red;
+    padding: 10px;
+}
+
 /* Formatação do rodape*/
 #rodape{
 	text-align: center;

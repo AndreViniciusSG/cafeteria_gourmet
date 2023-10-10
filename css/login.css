@@ -187,10 +187,6 @@ nav#menu li:hover{
 .box3{
 	width: 100vw;
     height: auto;
-	background-image: url(../imagens/coffe.png);
-    background-repeat: no-repeat;
-    background-size: 100%;
-    background-position: center;
 }
 
 /* Formatação da div1 do box3 */
