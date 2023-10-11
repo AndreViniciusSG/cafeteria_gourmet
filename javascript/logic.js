@@ -1,13 +1,16 @@
-let btn = document.querySelector('.eye')
 
-btn.addEventListener('click', ()=>{
-    let inputSenha = document.querySelector('#senha')
+let count = 1;
+document.getElementById("radio1").checked = true;
 
-    if(inputSenha.getAttribute('type') == 'password'){
-        inputSenha.setAtribute('type', 'text')
+setInterval( function(){
+    nextImage();
+}, 2000)
 
-    }else{
-        inputSenha.setAtribute('type', 'password')
+function nextImage(){
+    count++;
+    if(count>4){
+        count=1;
     }
 
-})
+    document.getElementById("radio"+count).checked = true;
+}

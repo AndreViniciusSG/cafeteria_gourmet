@@ -230,7 +230,7 @@ nav#menu li:hover{
 .box5{
 	width: 100vw;
     height: auto;
-    box-shadow: rgba(0, 0, 0, 0.25) 0px 50px 100px -20px, rgba(0, 0, 0, 0.3) 0px 30px 60px -30px, rgba(3, 10, 17, 0.35) 0px -2px 6px 0px inset;
+    box-shadow: rgba(14, 30, 37, 0.12) 0px 2px 4px 0px, rgba(14, 30, 37, 0.32) 0px 2px 16px 0px;
     margin-top: 100px;
 }
 
@@ -287,7 +287,7 @@ nav#menu li:hover{
     display: flex;
     justify-content: center;
     align-items: center;
-    border: 2px solid black;
+    box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
 }
 
 /* Formatação da classe slides */
@@ -306,6 +306,7 @@ nav#menu li:hover{
     width: 50%;
     position: relative;
     margin-left: 37%;
+    transition: 2s;
 }
 
 .slide img{
@@ -316,10 +317,9 @@ nav#menu li:hover{
 .manual-navigation{
     position: absolute;
     width: 300px;
-    margin-top: 40px;
+    margin-top: 400px;
     display: flex;
     justify-content: center;
-    background-color: red;
 }
 
 .manual-btn{
