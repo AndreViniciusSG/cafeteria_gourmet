@@ -281,8 +281,8 @@ nav#menu li:hover{
 .box6{
     margin: 100px auto;
     padding: 0;
-    width: 400px;
-    height: 600px;
+    width: 350px;
+    height: 500px;
     overflow: hidden;
     display: flex;
     justify-content: center;
@@ -293,7 +293,7 @@ nav#menu li:hover{
 /* Formatação da classe slides */
 .slides{
     width: 400%;
-    height: auto;
+    height: 500px;
     display: flex;
 }
 
@@ -303,20 +303,23 @@ nav#menu li:hover{
 }
 
 .slide{
-    width: 55%;
+    width: 50%;
     position: relative;
+    margin-left: 37%;
 }
 
 .slide img{
-    width: 500px;
+    width: 360px;
+    height: 500px;
 }
 
 .manual-navigation{
     position: absolute;
-    width: 800px;
-    margin-top: 500px;
+    width: 300px;
+    margin-top: 40px;
     display: flex;
     justify-content: center;
+    background-color: red;
 }
 
 .manual-btn{
@@ -336,24 +339,20 @@ transition: 1s;
     background-color: white;
 }
 
-#radio0:checked ~ .first{
-    margin-left: 0;
-}
-
 #radio1:checked ~ .first{
-    margin-left: -26%;
+    margin-left: 37%;
 }
 
 #radio2:checked ~ .first{
-    margin-left: -58%;
+    margin-left: -26%;
 }
 
 #radio3:checked ~ .first{
-    margin-left: -200%;
+    margin-left: -89%;
 }
 
 #radio4:checked ~ .first{
-    margin-right: 0%;
+    margin-left: -236%;
 }
 
 /* Formatação do rodape*/
