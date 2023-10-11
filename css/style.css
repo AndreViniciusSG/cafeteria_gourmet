@@ -277,6 +277,85 @@ nav#menu li:hover{
     color: rgba(76, 52, 52, 1);
 }
 
+/* Formatação da classe box6 */
+.box6{
+    margin: 100px auto;
+    padding: 0;
+    width: 400px;
+    height: 600px;
+    overflow: hidden;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border: 2px solid black;
+}
+
+/* Formatação da classe slides */
+.slides{
+    width: 400%;
+    height: auto;
+    display: flex;
+}
+
+/* Formatação dos radios */
+.slides input{
+    display: none;
+}
+
+.slide{
+    width: 55%;
+    position: relative;
+}
+
+.slide img{
+    width: 500px;
+}
+
+.manual-navigation{
+    position: absolute;
+    width: 800px;
+    margin-top: 500px;
+    display: flex;
+    justify-content: center;
+}
+
+.manual-btn{
+border: 2px solid white;
+padding: 5px;
+border-radius: 10px;
+cursor: pointer;
+transition: 1s;
+
+}
+
+.manual-btn:not(:last-child){
+    margin-right: 40px;
+}
+
+.manual-btn:hover{
+    background-color: white;
+}
+
+#radio0:checked ~ .first{
+    margin-left: 0;
+}
+
+#radio1:checked ~ .first{
+    margin-left: -26%;
+}
+
+#radio2:checked ~ .first{
+    margin-left: -58%;
+}
+
+#radio3:checked ~ .first{
+    margin-left: -200%;
+}
+
+#radio4:checked ~ .first{
+    margin-right: 0%;
+}
+
 /* Formatação do rodape*/
 #rodape{
 	text-align: center;
@@ -288,6 +367,7 @@ nav#menu li:hover{
 	font-weight: bold;
 	font-size: 10pt;
 }
+
 
 /* Formatação do link do rodape*/
 #rodape a{
