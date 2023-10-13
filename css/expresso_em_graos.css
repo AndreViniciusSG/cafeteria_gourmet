@@ -247,11 +247,14 @@ margin-top: 10px ;
     border-radius: 15px;
 	color: white;
     background-color: rgb(248, 204, 59);
+    box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
 }
 
 #caixa_produtos p:hover{
-    background-color: rgba(76, 52, 52, 1);
+    background-color: rgb(216, 170, 19);
+    box-shadow: rgba(50, 50, 93, 0.25) 0px 50px 100px -20px, rgba(0, 0, 0, 0.3) 0px 30px 60px -30px, rgba(10, 37, 64, 0.35) 0px -2px 6px 0px inset;
     transition: 0.5s;
+    letter-spacing: 2px;
 }
 
 /* Formatação da div caixa1*/

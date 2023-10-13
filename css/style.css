@@ -37,6 +37,22 @@
     font-display: swap;
 }
 
+/* Formatação para fonte */
+@font-face {
+    font-family: 'Altone';
+    src: url(../fonts/Altone.ttf) format("truetype-variations");
+    font-weight: normal;
+    font-display: swap;
+}
+
+/* Formatação para fonte */
+@font-face {
+    font-family: 'libel';
+    src: url(../fonts/libel.otf) format("truetype-variations");
+    font-weight: normal;
+    font-display: swap;
+}
+
 /* Formatação do Body */	
 body {
 	background-color: white;
@@ -83,7 +99,6 @@ body {
     -moz-transition: all 0.3s;
     -webkit-transition: all 0.3s;
     transition: all 0.3s;
-    opacity: 0.5;
 }
 
 /* Formatação ao passar o mouse aa imagem da login do box1 */
@@ -91,7 +106,6 @@ body {
     -moz-transform: scale(1.2);
     -webkit-transition: scale(1.2);
     transform: scale(1.2);
-    opacity: 1;
 }
 
 /* Formatação da imagem da cadastro do box1 */
@@ -106,7 +120,6 @@ body {
     -moz-transition: all 0.3s;
     -webkit-transition: all 0.3s;
     transition: all 0.3s;
-    opacity: 0.5;
 }
 
 /* Formatação da imagem da cadastro do box1 ao passar o mouse*/
@@ -114,7 +127,6 @@ body {
     -moz-transform: scale(1.2);
     -webkit-transition: scale(1.2);
     transform: scale(1.2);
-    opacity: 1;
 }
 
 /* Formatação da imagem da carrinho do box1 */
@@ -129,7 +141,6 @@ body {
     -moz-transition: all 0.3s;
     -webkit-transition: all 0.3s;
     transition: all 0.3s;
-    opacity: 0.5;
 }
 
 /* Formatação da imagem da carrinho do box1 ao passar o mouse*/
@@ -137,7 +148,6 @@ body {
     -moz-transform: scale(1.2);
     -webkit-transition: scale(1.2);
     transform: scale(1.2);
-    opacity: 1;
 }
 
 /* Formatação do container box2 */
@@ -214,16 +224,18 @@ nav#menu li:hover{
 	padding: 10px;
 	color: rgba(76, 52, 52, 1);
 	margin-bottom: 10px;
+
 }
 
 /* Formatação do p box4 */
 .box4 p{
-	font-family: Biko;
+	font-family: libel;
 	font-size: 20px;
-	padding: 0px 70px 0px 70px;
+	padding: 0px 280px 0px 280px;
 	text-align: justify;
 	color: rgba(76, 52, 52, 1);
-	text-indent: 30px;
+	text-indent: 20px;
+    text-align: justify;
 }
 
 /* Formatação do container box5 */
@@ -271,18 +283,19 @@ nav#menu li:hover{
 
 /* Formatação da p do box5_2 */
 #box5_2 p{
-    font-family: Biko;
+    font-family: libel;
 	font-size: 20px;
 	padding: 0px 80px 0px 80px;
     color: rgba(76, 52, 52, 1);
+    text-align: justify;
 }
 
 /* Formatação da classe box6 */
 .box6{
     margin: 100px auto;
     padding: 0;
-    width: 350px;
-    height: 500px;
+    width: 900px;
+    height: 600px;
     overflow: hidden;
     display: flex;
     justify-content: center;
@@ -293,7 +306,7 @@ nav#menu li:hover{
 /* Formatação da classe slides */
 .slides{
     width: 400%;
-    height: 500px;
+    height: 600px;
     display: flex;
 }
 
@@ -303,15 +316,15 @@ nav#menu li:hover{
 }
 
 .slide{
-    width: 50%;
+    width: 100%;
     position: relative;
-    margin-left: 37%;
+    margin-left: 1350px;
     transition: 2s;
 }
 
 .slide img{
-    width: 360px;
-    height: 500px;
+    width: 920px;
+    height: 600px;
 }
 
 .manual-navigation{
@@ -352,7 +365,7 @@ transition: 1s;
 }
 
 #radio4:checked ~ .first{
-    margin-left: -236%;
+    margin-left: -411%;
 }
 
 /* Formatação do rodape*/

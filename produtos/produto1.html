@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+	<head>
+        <meta charset="UTF-8"/>
+		<title>Aroma de Café - Premium Quality</title>
+        <link rel="stylesheet" type="text/css" href="../css/produto1.css"/>
+        <script language="javascript" src="javascript/logic.js"></script>
+        
+        <script>
+            function calc_total() {
+                var qtd = parseInt(document.getElementById('cQuan').value);
+                tot = qtd * 89;
+                document.getElementById('cTot').value = tot;
+            }
+        </script>
+
+    </head>	
+	<body>
+        <div class="container">
+            <div class="box1">
+                <a href="../index.html"><img id="logo" src="../imagens/logo.png"></a>
+                <a href="../login.html"><img id="carrinho" src="../imagens/carrinho.png"></a>
+                <a href="../cadastro.html"><img id="cadastro" src="../imagens/cadastro.png"></a>
+                <a href="../login.html"><img id="login"src="../imagens/login.png"></a>
+            </div>
+			<div class="box2">
+				<header id="cabecalho">
+					<nav id="menu">
+						<h1>Menu Principal</h1>
+						<ul type="disc">
+							<a href="../expresso_em_graos.html"><li>Expresso em Grãos</li></a>
+							<li>Expresso em Sachê</li>
+							<li>Moído</li>
+							<li>Capuccino</li>
+                            <a href="../capsulas.html"><li>Cápsulas</li></a>
+                            <a href="../produtos_em_destaque.html"><li>Produtos em Destaque</li></a>
+                            <li>Nossos Combos</li>
+                            <a href="../utensilios.html"><li>Utensílios</li></a>
+						</ul>
+					</nav>				
+				</header>
+			</div> 
+            <div class="box3">
+                <div id="div1">
+                    <img id="produto1"src="../imagens/produto1.png"></a>
+                    <h1>Café Gourmet Aroma de Café em Grão 1kg</h1>
+                </div>
+                <div id="div2">
+                    <div class="form">
+                     <form action="https://api.staticforms.xyz/submit" method="post">
+                        <h1>Café Gourmet Aroma de Café em Grão 1kg</h1>
+                            <label for="cQuan">Quantidade</label>
+                                <input type="number" name="tQuant" id="cQuan" min="0" max="10" value="0">
+                                    <label for="cTot">Total a pagar R$</label> 
+                                        <input type="text" name="tTot" id="cTot" placeholder="teste">
+                                            <button type="submit" onclick="alerta()">Comprar</button>
+                                                <input type="hidden" name="accessKey" value="ba4a32c5-c709-42f3-bd62-f89c0937bf3b">
+                                                  <input type="hidden" name="redirectTo" value="https://andreviniciussg.github.io/andreviniciussg/">
+                        </form>
+                    </div>    
+                </div>
+            </div>
+        </div>    
+        <footer id="rodape">
+            Coded by <a class="link" href="https://github.com/AndreViniciusSG" target="_blank">André Vinícius Santos Guajajara</a>
+        </footer>	
+    </body>
+</html>    
