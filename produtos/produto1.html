@@ -34,19 +34,21 @@
             <div class="box3">
                 <div id="div1">
                     <img id="produto1"src="../imagens/produto1.png"></a>
-                    <h1>Café Gourmet Aroma de Café em Grão 1kg</h1>
+                    <h1>Café Gourmet Aroma de Café em Grão 1kg R$ 89,00</h1>
                 </div>
                 <div id="div2">
                     <div class="form">
                         <form>
                            
                             <h1>Café Gourmet Aroma de Café em Grão 1kg</h1>
-                            <label for="cQuan">Quantidade:</label>
+                            <label>Quantidade:</label>
                             <input type="number" class="quant" min="1" max="10" value="1">
-                            <label for="cTot">Valor por unidade R$</label> 
+                            <label>Valor por unidade R$</label> 
                             <input type="text" class="preco" value="89" readonly> 
-                            <button onclick="clicar()">Escolher quantidade</button>    
-                            <p class="resultado">Valor Total</p>
+                            <button type="button" onclick="clicar()">Calcular Valor</button>
+                            <label>Valor Total R$</label>    
+                            <p class="resultado">89</p>
+                            <button type="button" id="comprar">Comprar</button>
                                                 
                         </form>
                     </div>    

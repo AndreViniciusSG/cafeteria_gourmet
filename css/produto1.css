@@ -277,7 +277,7 @@ form label{
 
 /* Formatação do input*/
 form input{
-	color: black;
+	color: rgb(66, 26, 179);
 	font-size: 12pt;
 	font-family: Biko;
 	font-weight: normal;
@@ -298,13 +298,14 @@ form button{
 	width: 200px;
 	text-align: center;
 	cursor: pointer;
-	border: 2px solid  rgb(43, 18, 153);
+	border: 2px solid  rgb(209, 124, 27);
 	border-radius: 10px;
-	background-color: rgb(43, 18, 153);
+	background-color: rgb(209, 124, 27);
 	transition: 1s;
 	margin: auto;
     margin-top: 20px;
 	letter-spacing: 2px;
+	box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
 }
 
 
@@ -314,14 +315,51 @@ button:hover{
 	letter-spacing: 5px;
 }
 
-/* Formatação do imagem do form*/
-form #login{
-width: 60px;
-height: 60px;
-margin: auto;
-margin-top: 10px;
+
+/* Formatação do button*/
+form button#comprar{
+	color:  white;
+	font-size: 10pt;
+	font-family: Bebas;
+	font-weight: normal;
+	background-color: transparent;
+	padding: 10px;
+	width: 200px;
+	text-align: center;
+	cursor: pointer;
+	border: 2px solid  rgb(43, 18, 153);
+	border-radius: 10px;
+	background-color: rgb(43, 18, 153);
+	transition: 1s;
+	margin: auto;
+    margin-top: 20px;
+	letter-spacing: 2px;
+	box-shadow: rgba(50, 50, 93, 0.25) 0px 50px 100px -20px, rgba(0, 0, 0, 0.3) 0px 30px 60px -30px, rgba(10, 37, 64, 0.35) 0px -2px 6px 0px inset;
 }
 
+button#comprar:hover{
+	transition: 0.5s;
+	border-radius: 20px;
+	letter-spacing: 5px;
+}
+
+
+
+form p{
+	width: 100px;
+	height: 30px;
+	color: rgb(43, 18, 153);
+	text-align: left;
+	font-size: 12pt;
+	font-family: Bebas;
+	font-weight: normal;
+	position: absolute;
+	top: 578px;
+	left: 305px;
+	padding: 5px;
+	background-color: white;
+	border-radius: 10px;
+}
 /* Formatação do rodape*/
 #rodape{
 	text-align: center;
