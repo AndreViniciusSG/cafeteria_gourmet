@@ -4,16 +4,7 @@
         <meta charset="UTF-8"/>
 		<title>Aroma de Café - Premium Quality</title>
         <link rel="stylesheet" type="text/css" href="../css/produto1.css"/>
-        <script language="javascript" src="javascript/logic.js"></script>
-        
-        <script>
-            function calc_total() {
-                var qtd = parseInt(document.getElementById('cQuan').value);
-                tot = qtd * 89;
-                document.getElementById('cTot').value = tot;
-            }
-        </script>
-
+        <script language="javascript" src="../javascript/result.js"></script>
     </head>	
 	<body>
         <div class="container">
@@ -47,20 +38,21 @@
                 </div>
                 <div id="div2">
                     <div class="form">
-                     <form action="https://api.staticforms.xyz/submit" method="post">
-                        <h1>Café Gourmet Aroma de Café em Grão 1kg</h1>
-                            <label for="cQuan">Quantidade</label>
-                                <input type="number" name="tQuant" id="cQuan" min="0" max="10" value="0">
-                                    <label for="cTot">Total a pagar R$</label> 
-                                        <input type="text" name="tTot" id="cTot" placeholder="teste">
-                                            <button type="submit" onclick="alerta()">Comprar</button>
-                                                <input type="hidden" name="accessKey" value="ba4a32c5-c709-42f3-bd62-f89c0937bf3b">
-                                                  <input type="hidden" name="redirectTo" value="https://andreviniciussg.github.io/andreviniciussg/">
+                        <form>
+                           
+                            <h1>Café Gourmet Aroma de Café em Grão 1kg</h1>
+                            <label for="cQuan">Quantidade:</label>
+                            <input type="number" class="quant" min="1" max="10" value="1">
+                            <label for="cTot">Valor por unidade R$</label> 
+                            <input type="text" class="preco" value="89" readonly> 
+                            <button onclick="clicar()">Escolher quantidade</button>    
+                            <p class="resultado">Valor Total</p>
+                                                
                         </form>
                     </div>    
                 </div>
             </div>
-        </div>    
+        </div>  
         <footer id="rodape">
             Coded by <a class="link" href="https://github.com/AndreViniciusSG" target="_blank">André Vinícius Santos Guajajara</a>
         </footer>	
