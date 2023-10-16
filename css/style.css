@@ -75,12 +75,11 @@ body {
 /* Formatação do container box2 */
 .box1{
 	width: 100vw;
-    margin-bottom: 10px;
+    padding: 15px;
 }
 
 /* Formatação da imagem da logo do box1 */
 #logo {
-    margin:10px;
     height: 120px;
 	width: 120px;
     padding: 7px;

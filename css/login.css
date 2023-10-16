@@ -37,6 +37,22 @@
     font-display: swap;
 }
 
+/* Formatação para fonte */
+@font-face {
+    font-family: 'Altone';
+    src: url(../fonts/Altone.ttf) format("truetype-variations");
+    font-weight: normal;
+    font-display: swap;
+}
+
+/* Formatação para fonte */
+@font-face {
+    font-family: 'libel';
+    src: url(../fonts/libel.otf) format("truetype-variations");
+    font-weight: normal;
+    font-display: swap;
+}
+
 /* Formatação do Body */	
 body {
 	background-color: white;
@@ -59,16 +75,29 @@ body {
 /* Formatação do container box2 */
 .box1{
 	width: 100vw;
-    margin-bottom: 10px;
+    padding: 15px;
 }
 
 /* Formatação da imagem da logo do box1 */
 #logo {
     height: 120px;
 	width: 120px;
-    padding: 10px;
+    padding: 7px;
     display: block;
     float: left;
+    max-width: 100%;
+    -moz-transition: all 0.3s;
+    -webkit-transition: all 0.3s;
+    transition: all 0.3s;
+    border-radius: 90px;
+}
+
+/* Formatação da imagem da logo do box1 ao clicar */
+#logo:hover {
+    -moz-transform: scale(1.1);
+    -webkit-transition: scale(1.1);
+    transform: scale(1.1);
+    box-shadow: rgba(50, 50, 93, 0.25) 0px 50px 100px -20px, rgba(0, 0, 0, 0.3) 0px 30px 60px -30px, rgba(10, 37, 64, 0.35) 0px -2px 6px 0px inset;
 }
 
 /* Formatação da imagem da login do box1 */
@@ -83,7 +112,6 @@ body {
     -moz-transition: all 0.3s;
     -webkit-transition: all 0.3s;
     transition: all 0.3s;
-    opacity: 0.5;
 }
 
 /* Formatação ao passar o mouse aa imagem da login do box1 */
@@ -91,7 +119,6 @@ body {
     -moz-transform: scale(1.2);
     -webkit-transition: scale(1.2);
     transform: scale(1.2);
-    opacity: 1;
 }
 
 /* Formatação da imagem da cadastro do box1 */
@@ -106,7 +133,6 @@ body {
     -moz-transition: all 0.3s;
     -webkit-transition: all 0.3s;
     transition: all 0.3s;
-    opacity: 0.5;
 }
 
 /* Formatação da imagem da cadastro do box1 ao passar o mouse*/
@@ -114,7 +140,6 @@ body {
     -moz-transform: scale(1.2);
     -webkit-transition: scale(1.2);
     transform: scale(1.2);
-    opacity: 1;
 }
 
 /* Formatação da imagem da carrinho do box1 */
@@ -129,7 +154,6 @@ body {
     -moz-transition: all 0.3s;
     -webkit-transition: all 0.3s;
     transition: all 0.3s;
-    opacity: 0.5;
 }
 
 /* Formatação da imagem da carrinho do box1 ao passar o mouse*/
@@ -137,8 +161,8 @@ body {
     -moz-transform: scale(1.2);
     -webkit-transition: scale(1.2);
     transform: scale(1.2);
-    opacity: 1;
 }
+
 
 /* Formatação do container box2 */
 .box2{
