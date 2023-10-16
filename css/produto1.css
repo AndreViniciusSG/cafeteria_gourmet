@@ -252,9 +252,8 @@ transition: all 0.3s;
     width: 50vw;
     height: 80vh;
     background-color: white;
-    padding: 10px;
     float: left;
-    padding: 20px 0px 0px 0px;    
+    padding: 20px 0px 20px 0px;    
 }
 
 /* Formatação do h1 do form*/
@@ -372,12 +371,12 @@ form p{
 	width: 100px;
 	height: 30px;
 	color: rgb(43, 18, 153);
-	text-align: left;
+	text-align: center;
 	font-size: 12pt;
 	font-family: Bebas;
 	font-weight: normal;
 	position: absolute;
-	top: 578px;
+	top: 595px;
 	left: 305px;
 	padding: 5px;
 	background-color: white;

@@ -205,203 +205,147 @@ nav#menu li{
 nav#menu li:hover{
     color: rgb(248, 204, 59);
 }
+
 /* Formatação do container box3 */
 .box3{
 	width: 100vw;
-    height: 45vw;
-    background-image: url(../imagens/imageminicial.png);
-    background-repeat: no-repeat;
-    background-size: contain;
-}
-
-/* Formatação do container box4 */
-.box4{
-	width: 100vw;
-	margin: 100px;
-}
-
-
-#faixas{
-    display: inline-block;
-
-}
-/* Formatação da imagem faixa do box4 */
-#faixa{
-	width: 160px;
-	height: 140px;
-    margin: 50px;
-    max-width: 100%;
-    -moz-transition: all 0.3s;
-    -webkit-transition: all 0.3s;
-    transition: all 0.3s;
-    opacity: 0.7;
-}
-
-#faixa:hover{
-    -moz-transform: scale(1.1);
-    -webkit-transition: scale(1.1);
-    transform: scale(1.1);
-    box-shadow: rgba(0, 0, 0, 0.16) 0px 3px 6px, rgba(0, 0, 0, 0.23) 0px 3px 6px;
-    opacity: 1;
-}
-
-/* Formatação do video do box4 */
-.box4 #video{
-	margin: 100px;
-}
-
-/* Formatação do h1 box4 */
-.box4 h1{
-	font-family: Biko;
-	font-size: 50px;
-	padding: 10px;
-    text-align: center;
-	color: rgba(76, 52, 52, 1);
-	margin-bottom: 10px;
-}
-
-/* Formatação do p box4 */
-.box4 p{
-	font-family: Biko;
-	font-size: 20px;
-	padding: 0px 250px 0px 250px;
-	text-align: justify;
-	color: rgba(76, 52, 52, 1);
-	text-indent: 20px;
-}
-
-#coffee{
-    width: 200px;
-    margin: 30px;
-}
-/* Formatação do container box5 */
-.box5{
-	width: 100vw;
     height: auto;
-    box-shadow: rgba(14, 30, 37, 0.12) 0px 2px 4px 0px, rgba(14, 30, 37, 0.32) 0px 2px 16px 0px;
-    margin-top: 100px;
+    padding: 20px 0px 0px 0px;    
 }
 
 /* Formatação da div1 do box3 */
-#box5_1{
+#div1{
     width: 50vw;
-    height: 500px;
-    float: left;
-    margin: auto;
-    padding: 10px;
-}
-
-/* Formatação da imagem da div box5 */
-#box5_1_logo{
-    width: 450px;
-    height: 450px;
-    float: center;
-    padding: 10px;
-}
-
-/* Formatação da div box5_2 */
-#box5_2{
-    width: 50vw;
-    height: 500px;
+    height: 80vh;
+    padding: 5px;
     float: right;
-    margin: auto;
-    padding: 10px;
 }
 
-/* Formatação da div1 do box5_2 */
-#box5_2 h1{
-    font-family: Biko;
-	font-size: 50px;
-    color: rgba(76, 52, 52, 1);
-    margin-top: 100px;
-    padding: 10px;
+/* Formatação da imagem da div1 do box3 */
+#div1 img{
+padding: 20px 0px 0px 0px;    
+width: 200px;
+height: auto;
+max-width: 100%;
+-moz-transition: all 0.3s;
+-webkit-transition: all 0.3s;
+transition: all 0.3s;
 }
 
-/* Formatação da p do box5_2 */
-#box5_2 p{
-    font-family: libel;
-	font-size: 20px;
-	padding: 0px 80px 0px 80px;
-    color: rgba(76, 52, 52, 1);
-    text-align: justify;
+#div1 img:hover{
+    -moz-transform: scale(1.3);
+    -webkit-transition: scale(1.3);
+    transform: scale(1.3);
 }
 
-/* Formatação da classe box6 */
-.box6{
-    margin: 100px auto;
-    padding: 0;
-    width: 900px;
-    height: 600px;
-    overflow: hidden;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
+#div1 h1{
+    font-size: 25pt;
+	font-family: CaviarDreams;
+	font-weight: normal;
+    color:  rgb(19, 19, 18);
+    margin:auto;
+    padding: 50px;
 }
 
-/* Formatação da classe slides */
-.slides{
-    width: 400%;
-    height: 600px;
-    display: flex;
-}
-
-/* Formatação dos radios */
-.slides input{
-    display: none;
-}
-
-.slide{
-    width: 100%;
-    position: relative;
-    margin-left: 1350px;
-    transition: 2s;
-}
-
-.slide img{
-    width: 920px;
-    height: 600px;
-}
-
-.manual-navigation{
-    position: absolute;
-    width: 300px;
-    margin-top: 400px;
-    display: flex;
-    justify-content: center;
-}
-
-.manual-btn{
-border: 2px solid white;
-padding: 5px;
-border-radius: 10px;
-cursor: pointer;
-transition: 1s;
-
-}
-
-.manual-btn:not(:last-child){
-    margin-right: 40px;
-}
-
-.manual-btn:hover{
+/* Formatação da div2 do box3 */
+#div2{
+    width: 50vw;
+    height: 80vh;
     background-color: white;
+    float: left;
+    padding: 20px 0px 20px 0px;    
 }
 
-#radio1:checked ~ .first{
-    margin-left: 37%;
+/* Formatação do h1 do form*/
+#div2 h1{
+    font-size: 25pt;
+	font-family: CaviarDreams;
+	font-weight: normal;
+    color:  white;
+    margin:auto;
 }
 
-#radio2:checked ~ .first{
-    margin-left: -26%;
+
+/* Formatação da div form*/	
+.form{
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	margin: auto;
+	width: 500px;
+	height: 450px;
+	padding: 10px 2px;
+    border: 2px solid rgb(248, 204, 59);
+	background-color: rgb(248, 204, 59);
 }
 
-#radio3:checked ~ .first{
-    margin-left: -89%;
+/* Formatação do formulário*/	
+.form form{
+	display: flex;
+	flex-direction: column;
+	width: 70%;
 }
 
-#radio4:checked ~ .first{
-    margin-left: -411%;
+
+/* Formatação do label*/
+form label{
+	font-size: 15pt;
+	font-family: Bebas;
+	font-weight: normal;
+	padding: 15px;
+	text-align: left;
+    color: white;
+}
+
+/* Formatação do input*/
+form input{
+	color: rgb(66, 26, 179);
+	font-size: 12pt;
+	font-family: Biko;
+	font-weight: normal;
+	padding: 5px;
+    background-color: white;
+	border: 2px solid white;
+    border-radius:  12px;
+}
+
+/* Formatação do button*/
+form button{
+	color:  white;
+	font-size: 10pt;
+	font-family: Biko;
+	font-weight: normal;
+	background-color: transparent;
+	padding: 10px;
+	width: 200px;
+	text-align: center;
+	cursor: pointer;
+	border: 2px solid  rgb(209, 124, 27);
+	border-radius: 10px;
+	background-color: rgb(209, 124, 27);
+	transition: 1s;
+	margin: auto;
+    margin-top: 20px;
+	letter-spacing: 2px;
+	box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+}
+
+
+button:hover{
+	transition: 0.5s;
+	border-radius: 20px;
+    background-color: rgb(66, 26, 179);
+    border: 2px solid rgb(66, 26, 179);
+}
+
+
+form h2{
+	color: rgb(43, 18, 153);
+	text-align: center;
+	font-size: 12pt;
+	font-family: Biko;
+	font-weight: normal;
+	padding: 5px;
 }
 
 /* Formatação do rodape*/
@@ -415,7 +359,6 @@ transition: 1s;
 	font-weight: bold;
 	font-size: 10pt;
 }
-
 
 /* Formatação do link do rodape*/
 #rodape a{

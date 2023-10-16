@@ -3,8 +3,7 @@
 	<head>
         <meta charset="UTF-8"/>
 		<title>Aroma de Café - Premium Quality</title>
-        <link rel="stylesheet" type="text/css" href="../css/produto1.css"/>
-        <script language="javascript" src="../javascript/result.js"></script>
+        <link rel="stylesheet" type="text/css" href="../css/produto1_cartao_de_credito.css"/>
     </head>	
 	<body>
         <div class="container">
@@ -33,28 +32,25 @@
 			</div> 
             <div class="box3">
                 <div id="div1">
-                    <img id="produto1"src="../imagens/produto1.png"></a>
-                    <h1>Café Gourmet Aroma de Café em Grão 1kg R$ 89,00</h1>
-                </div>
-                <div id="div2">
                     <div class="form">
                         <form>
-                           
-                            <h1>Café Gourmet Aroma de Café em Grão 1kg</h1>
-                            <label>Quantidade:</label>
-                            <input type="number" class="quant" min="1" max="10" value="1">
-                            <label>Valor por unidade R$</label> 
-                            <input type="text" class="preco" value="89" readonly> 
-                            <button type="button" onclick="clicar()">Calcular Valor</button>
-                            <label>Valor Total R$</label>    
-                            <p class="resultado">89</p>
-                            <a href="produto1_pagamento.html"><button type="button" id="comprar">Comprar</button></a>
-                                                
+                            <h1>Cartão de Crédito</h1>
+                            <label>Nome do Titular do Cartão</label>
+                            <input type="text" name="nome" placeholder="Digite o nome" autocomplete="off" required>
+                            <label>Número do Cartão</label>
+                            <input type="text" name="numero" placeholder="Digite o número" autocomplete="off" required>
+                            <label>Data de Vencimento/Mês</label>
+                            <input type="number" name="data" placeholder="Digite o mês" autocomplete="off" required min="1" max="12">
+                            <label>Data de Vencimento/Ano</label>
+                            <input type="number" name="data" placeholder="Digite o ano" autocomplete="off" required min="2023" max="2033">
+                            <label>Código de Segurança</label>
+                            <input type="text" name="codigo" placeholder="Digite o código" autocomplete="off" required>
+                            <button type="submit" onclick="alerta()">Confirmar pagamento</button>
                         </form>
                     </div>    
                 </div>
             </div>
-        </div>  
+        </div>    
         <footer id="rodape">
             Coded by <a class="link" href="https://github.com/AndreViniciusSG" target="_blank">André Vinícius Santos Guajajara</a>
         </footer>	
