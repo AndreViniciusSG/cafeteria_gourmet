@@ -38,13 +38,13 @@
                             <label>Nome do Titular do Cartão</label>
                             <input type="text" name="nome" placeholder="Digite o nome" autocomplete="off" required>
                             <label>Número do Cartão</label>
-                            <input type="text" name="numero" placeholder="Digite o número" autocomplete="off" required>
+                            <input type="text" name="numero" placeholder="Digite o número"  maxlength="16" autocomplete="off" required>
                             <label>Data de Vencimento/Mês</label>
                             <input type="number" name="data" placeholder="Digite o mês" autocomplete="off" required min="1" max="12">
                             <label>Data de Vencimento/Ano</label>
                             <input type="number" name="data" placeholder="Digite o ano" autocomplete="off" required min="2023" max="2033">
                             <label>Código de Segurança</label>
-                            <input type="text" name="codigo" placeholder="Digite o código" autocomplete="off" required>
+                            <input type="text" name="codigo" placeholder="Digite o código" maxlength="3" autocomplete="off" required>
                             <button type="submit" onclick="alerta()">Confirmar pagamento</button>
                         </form>
                     </div>    

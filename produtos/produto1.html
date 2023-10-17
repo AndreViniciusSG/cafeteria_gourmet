@@ -41,13 +41,10 @@
                         <form>
                            
                             <h1>Café Gourmet Aroma de Café em Grão 1kg</h1>
-                            <label>Quantidade:</label>
-                            <input type="number" class="quant" min="1" max="10" value="1">
-                            <label>Valor por unidade R$</label> 
-                            <input type="text" class="preco" value="89" readonly> 
-                            <button type="button" onclick="clicar()">Calcular Valor</button>
-                            <label>Valor Total R$</label>    
-                            <p class="resultado">89</p>
+                            <label>Quantidade</label>
+                            <input type="number" id="quantidade" value="1" onclick="var_total()">
+                            <label>Valor Total R$</label>
+                            <input type="text" value="89" id="total">
                             <a href="produto1_pagamento.html"><button type="button" id="comprar">Comprar</button></a>
                                                 
                         </form>

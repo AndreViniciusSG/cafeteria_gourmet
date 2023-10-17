@@ -1,8 +1,7 @@
+var quant, total
 
-function clicar() {
-    var qtd = document.querySelector(".quant").value;
-    var preco = document.querySelector(".preco").value;
-
-     var result = parseInt(qtd) * parseInt(preco);
-     document.querySelector(".resultado").innerHTML = result;
- }           
+function var_total() {
+    var quant = document.getElementById("quantidade").value;
+    total = parseInt(quant) * 89;
+    document.getElementById("total").value = total;
+}
