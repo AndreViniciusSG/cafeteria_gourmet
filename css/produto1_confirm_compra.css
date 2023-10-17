@@ -1,0 +1,365 @@
+@charset "UTF-8";
+*{
+	margin: 0;
+	padding: 0;
+	box-sizing: border-box;
+}
+
+/* Formatação para fonte */
+@font-face {
+    font-family: 'CaviarDreams';
+    src: url(../fonts/CaviarDreams.ttf) format("truetype-variations");
+    font-weight: normal;
+    font-display: swap;
+}
+
+/* Formatação para fonte */
+@font-face {
+    font-family: 'kgred';
+    src: url(../fonts/kgred.ttf) format("truetype-variations");
+    font-weight: normal;
+    font-display: swap;
+}
+
+/* Formatação para fonte */
+@font-face {
+    font-family: 'Biko';
+    src: url(../fonts/Biko.otf) format("truetype-variations");
+    font-weight: normal;
+    font-display: swap;
+}
+
+/* Formatação para fonte */
+@font-face {
+    font-family: 'Bebas';
+    src: url(../fonts/Bebas.otf) format("truetype-variations");
+    font-weight: normal;
+    font-display: swap;
+}
+
+/* Formatação para fonte */
+@font-face {
+    font-family: 'Altone';
+    src: url(../fonts/Altone.ttf) format("truetype-variations");
+    font-weight: normal;
+    font-display: swap;
+}
+
+/* Formatação para fonte */
+@font-face {
+    font-family: 'libel';
+    src: url(../fonts/libel.otf) format("truetype-variations");
+    font-weight: normal;
+    font-display: swap;
+}
+
+/* Formatação do Body */	
+body {
+	background-color: white;
+	padding: 0;
+	margin: 0;
+	width: 100vw;
+	height: 100vh;
+}
+
+/* Formatação do container principal */
+.container {
+	display: flex;
+	justify-content: center;
+	text-align: center;
+	flex-wrap: wrap;
+	width: 100vw;
+	height: auto;
+}
+
+/* Formatação do container box2 */
+.box1{
+	width: 100vw;
+    padding: 15px;
+}
+
+/* Formatação da imagem da logo do box1 */
+#logo {
+    height: 120px;
+	width: 120px;
+    padding: 7px;
+    display: block;
+    float: left;
+    max-width: 100%;
+    -moz-transition: all 0.3s;
+    -webkit-transition: all 0.3s;
+    transition: all 0.3s;
+    border-radius: 90px;
+}
+
+/* Formatação da imagem da logo do box1 ao clicar */
+#logo:hover {
+    -moz-transform: scale(1.1);
+    -webkit-transition: scale(1.1);
+    transform: scale(1.1);
+    box-shadow: rgba(50, 50, 93, 0.25) 0px 50px 100px -20px, rgba(0, 0, 0, 0.3) 0px 30px 60px -30px, rgba(10, 37, 64, 0.35) 0px -2px 6px 0px inset;
+}
+
+/* Formatação da imagem da login do box1 */
+#login {
+    height: 40px;
+	width: 40px;
+    margin: 30px;
+    padding: 5px;
+    display: block;
+    float: right;
+    max-width: 100%;
+    -moz-transition: all 0.3s;
+    -webkit-transition: all 0.3s;
+    transition: all 0.3s;
+}
+
+/* Formatação ao passar o mouse aa imagem da login do box1 */
+#login:hover {
+    -moz-transform: scale(1.2);
+    -webkit-transition: scale(1.2);
+    transform: scale(1.2);
+}
+
+/* Formatação da imagem da cadastro do box1 */
+#cadastro {
+    height: 40px;
+	width: 40px;
+    margin: 30px;
+    padding: 5px;
+    display: block;
+    float: right;
+    max-width: 100%;
+    -moz-transition: all 0.3s;
+    -webkit-transition: all 0.3s;
+    transition: all 0.3s;
+}
+
+/* Formatação da imagem da cadastro do box1 ao passar o mouse*/
+#cadastro:hover {
+    -moz-transform: scale(1.2);
+    -webkit-transition: scale(1.2);
+    transform: scale(1.2);
+}
+
+/* Formatação da imagem da carrinho do box1 */
+#carrinho {
+    height: 40px;
+	width: 40px;
+    margin: 30px;
+    padding: 5px;
+    display: block;
+    float: right;
+    max-width: 100%;
+    -moz-transition: all 0.3s;
+    -webkit-transition: all 0.3s;
+    transition: all 0.3s;
+}
+
+/* Formatação da imagem da carrinho do box1 ao passar o mouse*/
+#carrinho:hover {
+    -moz-transform: scale(1.2);
+    -webkit-transition: scale(1.2);
+    transform: scale(1.2);
+}
+
+/* Formatação do container box2 */
+.box2{
+	width: 100vw;
+}
+
+/* Formatação do Menu */
+nav#menu {
+	display: block;
+}
+
+/* Formatação do H1 do Menu */	
+nav#menu h1{
+	display: none;
+}
+
+/* Formatação da Posição na página da Lista do Menu */
+nav#menu ul{
+	list-style: none;
+	text-align: center;
+	padding: 10px;
+	font-size: 15pt;	
+	font-weight: bold;
+	background-color: rgba(76, 52, 52, 1);
+}
+
+/* Formatação da cor e forma da Lista do Menu */
+nav#menu li{
+	font-family: CaviarDreams;
+	font-weight: normal;
+	font-size: 12pt;
+    color: white;
+	display: inline-block;/* Lista em forma de fila*/
+	background-color: transparent;
+	margin: 10px;
+	padding: 5px;
+	text-transform: uppercase;
+}
+
+/* Formatação ao passar o mouse na lista*/
+nav#menu li:hover{
+    color: rgb(248, 204, 59);
+}
+
+/* Formatação do container box3 */
+.box3{
+	width: 100vw;
+    height: auto;
+    margin: 10px;
+    padding: 20px 0px 0px 0px;    
+}
+
+
+/* Formatação da div1 do box3 */
+#div0{
+    width: 45vw;
+    height: 80vh;
+    padding: 5px;
+    float: right;
+}
+
+/* Formatação da imagem da div1 do box3 */
+#div0 img{
+padding: 20px 0px 0px 0px;    
+width: 200px;
+height: auto;
+max-width: 100%;
+-moz-transition: all 0.3s;
+-webkit-transition: all 0.3s;
+transition: all 0.3s;
+}
+
+#div0 img:hover{
+    -moz-transform: scale(1.3);
+    -webkit-transition: scale(1.3);
+    transform: scale(1.3);
+}
+
+#div0 h1{
+    font-size: 25pt;
+	font-family: CaviarDreams;
+	font-weight: normal;
+    color:  rgb(19, 19, 18);
+    margin:auto;
+    padding: 50px;
+}
+
+/* Formatação da div1 do box3 */
+#div1{
+    width: 45vw;
+    height: auto;
+    padding: 5px;
+    float: left;
+}
+
+
+#div1 h1{
+    font-size: 25pt;
+	font-family: Biko;
+	font-weight: normal;
+    color: rgb(66, 26, 179);
+    margin-bottom:10px;
+    padding: 10px;
+}
+
+/* Formatação da div form*/	
+.form{
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	margin: auto;
+	width: 500px;
+	height: 500px;
+	padding: 10px;
+    border: 2px solid rgb(248, 204, 59);
+	background-color: rgb(248, 204, 59);
+}
+
+/* Formatação do formulário*/	
+.form form{
+	display: flex;
+	flex-direction: column;
+	width: 70%;
+}
+
+/* Formatação do label*/
+form label{
+	font-size: 15pt;
+	font-family: Biko;
+	font-weight: normal;
+	padding: 15px;
+	text-align: left;
+    color: white;
+}
+
+/* Formatação do input*/
+form input{
+	color: rgb(66, 26, 179);
+	font-size: 12pt;
+	font-family: Biko;
+	font-weight: normal;
+	padding: 5px;
+    background-color: white;
+	border: 2px solid white;
+    border-radius:  12px;
+}
+
+/* Formatação do button*/
+form button{
+	color:  white;
+	font-size: 10pt;
+	font-family: Biko;
+	font-weight: normal;
+	background-color: transparent;
+	padding: 10px;
+	width: 200px;
+	text-align: center;
+	cursor: pointer;
+	border: 2px solid  rgb(209, 124, 27);
+	border-radius: 10px;
+	background-color: rgb(209, 124, 27);
+	transition: 1s;
+	margin: auto;
+    margin-top: 20px;
+	letter-spacing: 2px;
+	box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+}
+
+
+button:hover{
+	transition: 0.5s;
+	border-radius: 20px;
+    background-color: rgb(66, 26, 179);
+    border: 2px solid rgb(66, 26, 179);
+}
+
+/* Formatação do rodape*/
+#rodape{
+	text-align: center;
+	background-color: rgba(153, 110, 110, 1);
+	width: 100%;
+	padding: 50px;
+	color: black;
+	font-family: CaviarDreams;
+	font-weight: bold;
+	font-size: 10pt;
+}
+
+/* Formatação do link do rodape*/
+#rodape a{
+	color: white;
+	text-decoration: none;
+	font-weight: normal;
+}
+
+/* Formatação do link do rodape*/
+#rodape a:hover{
+	text-decoration: underline;
+	font-size: 11pt;
+	transition: 0.4s;
+}
