@@ -103,6 +103,7 @@ body {
 #buscar{
     padding: 20px;
     margin-top: 30px;
+    margin-left: 80px;
     background-color: rgb(202, 201, 201);
     border: 2px solid rgb(202, 201, 201);
     width: 450px;
