@@ -45,7 +45,7 @@
                             <input type="number" name="data" placeholder="Digite o ano" autocomplete="off" required min="2023" max="2033">
                             <label>Código de Segurança</label>
                             <input type="text" name="codigo" placeholder="Digite o código" maxlength="3" autocomplete="off" required>
-                            <a href="produto1_confirm_compra.html"><button type="button">Confirmar dados</button></a>
+                            <button type="submit" onclick="redireciona()">Confirmar dados</button>
                         </form>
                     </div>    
                 </div>
@@ -53,6 +53,19 @@
         </div>    
         <footer id="rodape">
             Coded by <a class="link" href="https://github.com/AndreViniciusSG" target="_blank">André Vinícius Santos Guajajara</a>
-        </footer>	
+        </footer>
+        <script>
+            function redireciona(){
+                
+                if (confirm("Os dados estão corretos?")) {
+                    if (confirm("Deseja seguir para a próxima página?")) {
+                        location.href="http://127.0.0.1:5500/produtos/produto1_confirm_compra.html";
+                    }
+                } else {
+                    location.href="http://127.0.0.1:5500/produtos/produto1_cartao_de_credito.html";
+                }
+                
+            }
+            </script>
     </body>
 </html>    
