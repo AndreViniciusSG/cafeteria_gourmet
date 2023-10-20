@@ -3,7 +3,7 @@
 	<head>
         <meta charset="UTF-8"/>
 		<title>Aroma de Café - Premium Quality</title>
-        <link rel="stylesheet" type="text/css" href="../css/produto1_pix.css"/>
+        <link rel="stylesheet" type="text/css" href="../css/produto1_confirm_compra.css"/>
     </head>	
 	<body>
         <div class="container">
@@ -31,13 +31,19 @@
 				</header>
 			</div> 
             <div class="box3">
+                <div id="div0">
+                    <img id="produto1"src="../imagens/produto1.png"></a>
+                    <h1>Café Gourmet Aroma de Café em Grão 1kg R$ 89,00</h1>
+                </div>
                 <div id="div1">
                     <div class="form">
                         <form>
-                            <h1>Pagamento via Pix</h1>
-                            <label>Copie o código para efetuar o pagamento</label>
-                            <input type="text" name="nome" placeholder="Digite o nome" autocomplete="off" value="1809973234343554589565657565612133221" required>
-                            <button type="button" onclick="redireciona()">Confirmar pagamento</button>
+                            <h1>Confirmação da Compra</h1>
+                            <label>Forma de Pagamento: </label>
+                            <input type="text" name="numero" value="Boleto"autocomplete="off" required>
+                            <label>Valor Total da Compra: </label>
+                            <input type="text" name="total" value="R$89,00" autocomplete="off" required>
+                            <a href="produto1_compra_realizada.html"><button type="button">Confirmar compra</button></a>
                         </form>
                     </div>    
                 </div>
@@ -45,18 +51,6 @@
         </div>    
         <footer id="rodape">
             Coded by <a class="link" href="https://github.com/AndreViniciusSG" target="_blank">André Vinícius Santos Guajajara</a>
-        </footer>
-        <script>
-            function redireciona(){
-                
-                    if (confirm("Pagamento realizado! Deseja seguir para a próxima página?")) {
-                        location.href="http://127.0.0.1:5500/produtos/produto1_confirm_compra_pix.html";
-                    
-                } else {
-                    location.href="http://127.0.0.1:5500/produtos/produto1_pix.html";
-                }
-                
-            }
-            </script>
+        </footer>	
     </body>
 </html>    

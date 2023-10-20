@@ -3,7 +3,7 @@
 	<head>
         <meta charset="UTF-8"/>
 		<title>Aroma de Café - Premium Quality</title>
-        <link rel="stylesheet" type="text/css" href="../css/produto1_pix.css"/>
+        <link rel="stylesheet" type="text/css" href="../css/produto1_boleto.css"/>
     </head>	
 	<body>
         <div class="container">
@@ -34,9 +34,8 @@
                 <div id="div1">
                     <div class="form">
                         <form>
-                            <h1>Pagamento via Pix</h1>
-                            <label>Copie o código para efetuar o pagamento</label>
-                            <input type="text" name="nome" placeholder="Digite o nome" autocomplete="off" value="1809973234343554589565657565612133221" required>
+                            <h1>Pagamento via Boleto</h1>
+                            <a href="boleto.png" download target="_blank">Gerar Boleto</a>
                             <button type="button" onclick="redireciona()">Confirmar pagamento</button>
                         </form>
                     </div>    
@@ -50,10 +49,10 @@
             function redireciona(){
                 
                     if (confirm("Pagamento realizado! Deseja seguir para a próxima página?")) {
-                        location.href="http://127.0.0.1:5500/produtos/produto1_confirm_compra_pix.html";
+                        location.href="http://127.0.0.1:5500/produtos/produto1_confirm_compra_boleto.html";
                     
                 } else {
-                    location.href="http://127.0.0.1:5500/produtos/produto1_pix.html";
+                    location.href="http://127.0.0.1:5500/produtos/produto1_boleto.html";
                 }
                 
             }
