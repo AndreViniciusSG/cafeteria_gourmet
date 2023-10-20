@@ -3,8 +3,7 @@
 	<head>
         <meta charset="UTF-8"/>
 		<title>Aroma de Café - Premium Quality</title>
-        <link rel="stylesheet" type="text/css" href="../css/produto1_pagamento.css"/>
-        <script language="javascript" src="../javascript/result.js"></script>
+        <link rel="stylesheet" type="text/css" href="../css/produto1_confirm_compra.css"/>
     </head>	
 	<body>
         <div class="container">
@@ -32,25 +31,24 @@
 				</header>
 			</div> 
             <div class="box3">
-                <div id="div1">
+                <div id="div0">
                     <img id="produto1"src="../imagens/produto1.png"></a>
-                    <h1>Café Gourmet Aroma de Café em Grão 1kg</h1>
+                    <h1>Café Gourmet Aroma de Café em Grão 1kg R$ 89,00</h1>
                 </div>
-                <div id="div2">
+                <div id="div1">
                     <div class="form">
                         <form>
-                           
-                            <h1>Pagamento</h1>
-                            <h2>Escolha a forma de pagamento</h2>
-                            <a href="produto1_cartao_de_credito.html"><button type="button" id="credito">Cartão de crédito</button></a>
-                            <button type="button" id="boleto">Boleto bancário</button>
-                            <a href="produto1_pix.html"><button type="button" id="pix">PIX</button></a>
-                                                
+                            <h1>Confirmação da Compra</h1>
+                            <label>Forma de Pagamento: </label>
+                            <input type="text" name="numero" maxlength="16" value="PIX"autocomplete="off" required>
+                            <label>Valor Total da Compra: </label>
+                            <input type="text" name="total" autocomplete="off" required>
+                            <a href="produto1_compra_realizada.html"><button type="button">Confirmar compra</button></a>
                         </form>
                     </div>    
                 </div>
             </div>
-        </div>  
+        </div>    
         <footer id="rodape">
             Coded by <a class="link" href="https://github.com/AndreViniciusSG" target="_blank">André Vinícius Santos Guajajara</a>
         </footer>	
