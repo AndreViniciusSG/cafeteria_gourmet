@@ -4,7 +4,7 @@
         <meta charset="UTF-8"/>
 		<title>Aroma de Café - Premium Quality</title>
         <link rel="stylesheet" type="text/css" href="css/login.css"/>
-        <script language="javascript" src="javascript/logic.js"></script>
+        <script language="javascript" src="javascript/login.js"></script>
     </head>	
 	<body>
         <div class="container">
@@ -15,6 +15,7 @@
                 <a href="login.html"><img id="carrinho" src="imagens/carrinho.png" title="Carrinho de compras"></a>
                 <a href="cadastro.html"><img id="cadastro" src="imagens/cadastro.png" title="Cadastrar"></a>
                 <a href="login.html"><img id="login"src="imagens/login.png" title="Login"></a>
+                <h1 i="usuario">Olá visitante !</h1>
             </div>
 			<div class="box2">
 				<header id="cabecalho">
@@ -40,13 +41,11 @@
                      <form action="https://api.staticforms.xyz/submit" method="post">
                         <h1>LOGIN</h1>
                         <label>E-mail</label>
-                         <input type="email" name="email" placeholder="Digite seu e-mail" autocomplete="off" required>
+                         <input type="email" id="email" name="email" placeholder="Digite seu e-mail" autocomplete="off" required>
                          <label>Senha</label>
-                            <img class="eye" src="imagens/eye-solid.svg">
                             <input type="password" id="senha" name="senha" placeholder="Digite sua senha" autocomplete="off" required>
-                            <button type="submit" onclick="alerta()">Login</button>
-                            <input type="hidden" name="accessKey" value="ba4a32c5-c709-42f3-bd62-f89c0937bf3b">
-                            <input type="hidden" name="redirectTo" value="https://andreviniciussg.github.io/andreviniciussg/">
+                            <button type="submit" onclick="logar(); return false">Login</button>
+                            
                         </form>
                     </div>    
                 </div>

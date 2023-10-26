@@ -4,6 +4,7 @@
         <meta charset="UTF-8"/>
 		<title>Aroma de Café - Premium Quality</title>
         <link rel="stylesheet" type="text/css" href="css/cadastro.css"/>
+        <script language="javascript" src="javascript/cadastrar.js"></script>
     </head>	
 	<body>
         <div class="container">
@@ -40,14 +41,13 @@
                         <label>Nome</label>
                          <input type="text" name="nome" placeholder="Digite seu nome completo" autocomplete="off" required>
                         <label>E-mail</label>
-                         <input type="email" name="email" placeholder="Digite seu e-mail" autocomplete="off" required>
+                         <input type="email" id="email" name="email" placeholder="Digite seu e-mail" autocomplete="off" required>
                          <label>Senha</label>
-                            <input type="password" name="senha" placeholder="Digite sua senha" autocomplete="off" required>
+                            <input type="password" id="senha" name="senha" placeholder="Digite sua senha" autocomplete="off" required>
                         <label>Confirme a senha</label>
-                            <input type="password" name="confim_senha" placeholder="Digite novamente sua senha" autocomplete="off" required>
-                        <button type="submit" onclick="alerta()">Cadastrar</button>
-                            <input type="hidden" name="accessKey" value="ba4a32c5-c709-42f3-bd62-f89c0937bf3b">
-                            <input type="hidden" name="redirectTo" value="https://andreviniciussg.github.io/andreviniciussg/">
+                            <input type="password" id="confirmsenha" name="confim_senha" placeholder="Digite novamente sua senha" autocomplete="off" required>
+                        <button type="submit" onclick="cadastrar(0); return false">Cadastrar</button>
+                  
                         </form>
                     </div>    
                 </div>
