@@ -6,7 +6,7 @@ function cadastrar(){
     if(senha == confirmsenha){
         alert("Cadastro realizado com sucesso!.");
 
-        location.href = "http://127.0.0.1:5500/index.html";
+        location.href = "http://127.0.0.1:5500/login.html";
 
     }else{
         alert("Senhas incorretas.")

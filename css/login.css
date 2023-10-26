@@ -293,7 +293,7 @@ nav#menu li:hover{
 	align-items: center;
 	margin: auto;
 	width: 500px;
-	height: 450px;
+	height: 500px;
 	padding: 10px 2px;
     border: 2px solid rgb(248, 204, 59);
 }
@@ -371,6 +371,25 @@ margin-top: 10px;
 	font-weight: normal;
     color:  rgb(248, 204, 59);
     margin:auto;
+}
+
+/* Formatação do p do formulário - cadastrar*/
+form p{
+    font-size: 10pt;
+	font-family: Biko;
+    color: rgba(76, 52, 52, 1);
+}
+
+/* Formatação do a do formulário - cadastrar*/
+form a{
+text-decoration: none;
+width: 155px;
+margin: auto;
+margin-top: 20px;
+}
+
+form a:hover{
+    opacity: 0.7;
 }
 
 /* Formatação da div box 7*/
