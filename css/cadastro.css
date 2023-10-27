@@ -53,6 +53,14 @@
     font-display: swap;
 }
 
+/* Formatação para fonte */
+@font-face {
+    font-family: 'cushion';
+    src: url(../fonts/cushion.ttf) format("truetype-variations");
+    font-weight: normal;
+    font-display: swap;
+}
+
 /* Formatação do Body */	
 body {
 	background-color: white;
@@ -297,8 +305,8 @@ form label{
 /* Formatação do input*/
 form input{
 	color: rgba(76, 52, 52, 1);
-	font-size: 12pt;
-	font-family: Biko;
+	font-size: 14pt;
+	font-family: cushion;
 	font-weight: normal;
 	padding: 5px;
     background-color: white;
