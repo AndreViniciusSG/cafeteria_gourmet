@@ -11,6 +11,7 @@
                 <a href="inicio.html"><img id="logo" src="imagens/logo.png" title="Início"></a>
                 <input id="buscar" type="text" placeholder="Buscar">   
                 <img id="lupa" src="imagens/lupa.png" title="Buscar">
+                <button id="sair" type="submit" onclick="sair()">Sair</button>
                 <a href="login.html"><img id="carrinho" src="imagens/carrinho.png" title="Carrinho de compras"></a>
                 <a href="cadastro.html"><img id="cadastro" src="imagens/cadastro.png" title="Cadastrar"></a>
                 <a href="login.html"><img id="login"src="imagens/login.png" title="Login"></a>
@@ -114,5 +115,14 @@
         <footer id="rodape">
             Coded by <a class="link" href="https://github.com/AndreViniciusSG" target="_blank">André Vinícius Santos Guajajara</a>
         </footer>
+        <script>
+            function sair(){
+                if (confirm("Deseja sair?")) {
+                        location.href="http://127.0.0.1:5500/index.html";
+                }else{
+                    location.href="http://127.0.0.1:5500/inicio.html";
+                }
+            }
+        </script>
     </body>
 </html>
