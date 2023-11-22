@@ -61,6 +61,14 @@
     font-display: swap;
 }
 
+/* Formatação para fonte */
+@font-face {
+    font-family: 'retroica';
+    src: url(../fonts/Retroica.ttf) format("truetype-variations");
+    font-weight: normal;
+    font-display: swap;
+}
+
 /* Formatação do Body */	
 body {
 	background-color: white;

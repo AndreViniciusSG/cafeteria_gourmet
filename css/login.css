@@ -387,6 +387,7 @@ form p{
     font-size: 10pt;
 	font-family: Biko;
     color: rgba(76, 52, 52, 1);
+    color: transparent;
 }
 
 /* Formatação do a do formulário - cadastrar*/
