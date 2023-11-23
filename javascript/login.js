@@ -4,7 +4,7 @@ function logar(){
 
     if(login == "andrevinicius_santos@hotmail.com" && senha == "12345678"){
         alert("Login efetuado com sucesso.");
-        location.href = "inicio.html";
+        location.href = "https://andreviniciussg.github.io/cafeteria_gourmet/inicio.html";
 
     }else{
         alert("Usuário ou senha incorretos.")
